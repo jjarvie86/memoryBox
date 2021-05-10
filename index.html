@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Liz and Joe Memory Box</title>
+    <link rel="shortcut icon" href="#" />
+    <script
+      type="text/javascript"
+      async
+      src="https://play.vidyard.com/embed/v4.js"
+    ></script>
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <body>
+    <h1 class="first">LIZ AND JOE MEMORY BOX</h1>
+
+    <button class="musicOnOff">
+      <img class="speakerImage" src="volume-off.png" />
+    </button>
+
+    <div class="boxHearts">
+      <img src="boxHearts.png" />
+    </div>
+
+    <!-- <video class="welcomeVideo" width="640" height="480" controls>
+      <source src="videoSample.mp4" type="video/mp4" />
+    </video> -->
+
+    <div class="welcomeVideo">
+      <img
+        style="width: 100%; margin: auto; display: block"
+        class="vidyard-player-embed"
+        src="https://play.vidyard.com/fFcAvAuSRUhdXudPJndU6v.jpg"
+        data-uuid="fFcAvAuSRUhdXudPJndU6v"
+        data-v="4"
+        data-type="inline"
+      />
+    </div>
+
+    <p class="second">
+      START WITH THE VIDEO
+      <br />
+      <br />
+      AND THEN
+      <br />
+      <br />
+      CLICK ON A PANEL TO REVEAL A MEMORY
+    </p>
+
+    <div class="grid-container">
+      <button class="memory memory0" id="0">1</button>
+      <button class="memory memory1" id="1">2</button>
+      <button class="memory memory3" id="2">3</button>
+      <button class="memory memory4" id="3">4</button>
+      <button class="memory memory5" id="4">5</button>
+      <button class="memory memory6" id="5">6</button>
+      <button class="memory memory7" id="6">7</button>
+      <button class="memory memory8" id="7">8</button>
+      <button class="memory memory9" id="8">9</button>
+      <button class="memory memory10" id="9">10</button>
+      <button class="memory memory11" id="10">11</button>
+      <button class="memory memory12" id="11">12</button>
+      <button class="memory memory13" id="12">?</button>
+    </div>
+
+    <div class="modal hidden" data-popup-modal="0">
+      <button class="close-modal">&times;</button>
+
+      <img src="memory0.png" class="photo" />
+    </div>
+    <div class="overlay hidden"></div>
+
+    <div class="modal hidden" data-popup-modal="1">
+      <button class="close-modal">&times;</button>
+
+      <img src="memory1.png" class="photo" />
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

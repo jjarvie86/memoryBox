@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: auto;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  padding: 30px;
+  min-height: 100%;
+  font-family: "Nunito", sans-serif;
+  background-color: rgb(183, 217, 223);
+}
+img {
+  width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 10px;
+  border-radius: 5px;
+  justify-content: center;
+  font-weight: 100;
+  outline: 0 !important;
+}
+
+.first {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  font-size: 35px;
+  text-align: center;
+  font-weight: 100;
+  color: rgb(43, 43, 43);
+}
+
+.second {
+  padding-bottom: 20px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 100;
+  color: rgb(104, 103, 103);
+}
+
+.memory {
+  font-family: "Nunito", sans-serif;
+  height: 80px;
+  width: auto;
+  background-color: #80cbc4;
+  border: none;
+  padding: 10px;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 20px;
+  color: rgb(104, 103, 103);
+}
+
+.memory:hover {
+  /* background-color: rgb(223, 242, 247); */
+  background-color: rgb(183, 217, 223);
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background-color: #80cbc4;
+  transform: translate(-50%, -50%);
+  height: 600px;
+  max-height: 90%;
+  width: 1000px;
+  max-width: 90%;
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.hidden {
+  display: none;
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 1rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.photo {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+.musicOnOff {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(183, 217, 223);
+  border: none;
+}
+
+.boxHearts {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+
+.welcomeVideo {
+  width: 320px;
+  height: 240px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.video {
+}
